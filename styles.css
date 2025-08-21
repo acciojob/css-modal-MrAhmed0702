@@ -1,1 +1,50 @@
-/*  your css code here. If applicable */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1000; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto; 
+  padding: 20px;
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	background-color: lightgreen;
+}
+
+.modal-header h2{
+	color: white;
+	padding-left: 5px;
+}
+
+.modal-header span{
+	padding-right: 15px;
+}
+
+.modal-body p{
+	padding-left: 5px;
+	font-size: 18px;
+}
+
+.close-modal {
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
